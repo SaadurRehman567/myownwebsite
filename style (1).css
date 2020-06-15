@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@600&display=swap');
+
+
+
+
+
+
+
+
+ul {
+    list-style: none;
+}
+
+
+/* ======== Top & Bottom Border Start ======== */
+.txt-bd {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 39%, rgba(0,0,0,0.8) 49%, rgba(0,0,0,0.8) 60%);6+ */
+}
+
+
+/* ======== NavBar Start ======== */
+.nav-bar .navbar {
+    /* height: 70px; */
+    background-color: lightblue !important;
+}
+
+.nav-bar .navbar-brand {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.5em;
+}
+.nav-bar .nav-item .nav-link {
+    padding-left: 1.5em;
+    text-transform: capitalize;
+    /* font-size: 1em; */
+    color: black !important;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Rock Salt', cursive;
+}
+
+.nav-bar .navbar-nav a:hover {
+    color: black;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+.nav-bar .navbar-nav .nav-item .dropdown-menu li {
+    font-family: Impact;
+    color: black;
+    background-color: lightblue;
+}
+.nav-bar .navbar-nav .nav-item .dropdown-menu li a {
+    color: black;
+    /* font-family: 'Rock Salt', cursive; */
+}
+
+@media only screen and (max-width: 500px) {
+    div.nav-bar .navbar-brand {
+      font-size: 1em;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    div.nav-bar .navbar-brand {
+      font-size: 0.6em;
+    }
+  }
+
+
+
+
+/* ======== Footer Start ======== */
+.con-tact h4 {
+    color: maroon;
+    font-family: 'Rock Salt', cursive;
+    /* text-decoration: underline; */
+}
+.con-tact ul {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.con-tact ul li {
+    margin-top: 10px;
+}
+.con-tact ul li i span {
+    margin-left: 10px;
+    font-size: 0.8em;
+    font-weight: 100;
+    font-family: Impact;
+}
+.con-tact ul li a {
+    text-decoration: none;
+    color: maroon;
+}
+.con-tact ul li a i:hover {
+    color: palegoldenrod;
+}
+@media only screen and (max-width: 500px) {
+    div.con-tact h4 {
+      font-size: 1em;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    div.con-tact h4 {
+      font-size: 0.6em;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    div.con-tact ul {
+      margin-left: 60px;
+    }
+  }
+
+  .ft-ad {
+    color: maroon;
+    display: flex;
+    width: auto;
+    height: auto;
+    box-shadow: 1px 1px 20px 5px maroon;
+    padding: 10px;
+    /* align-items: center;
+    justify-content: center; */
+    font-family: Impact;
+  }
+  .ft-ad > div > span {
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  .ft-div {
+   margin-top: 50px;
+   margin-left: 100px;
+  }
+
+
+  /* =======Collection Section====== */
+
+  .text-col {
+    font-family: 'Piedra', cursive;
+    letter-spacing: 5px; 
+  }
+  
+  @media only screen and (max-width: 500px) {
+    div.text-col h2 {
+      font-size: 1.3em;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    div.text-col h2 {
+      font-size: 0.6em;
+    }
+  }
+
+
+
+  /* ======= Card Css ======== */
+  /* ====== Card Div Start ====== */
+.card {
+  margin: 1em 1em;
+  padding: 1em 1em;
+  width: 200px !important;
+  border-bottom-left-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+}
+.card-body > h4 {
+  font-family: 'Architects Daughter', cursive;
+}
+.card-body > p {
+  font-family: 'Martel', serif;
+  /* font-size: 20px; */
+  /* font-weight: bold !important; */
+}
+
+.code {
+  font-size: small !important;
+  font-weight: bolder !important;
+  color: black !important;
+}
+.card > img {
+  /* width: 150px; */
+  height: 150px;
+  border-top-right-radius: 50px !important;
+  }
+
+
+
+
+/*========= Arrow =========*/
+/* .arrow i {
+  color: lavender;
+}
+.arrow {
+  position: fixed;
+  right: 50px;
+  bottom: 250px;
+} */
